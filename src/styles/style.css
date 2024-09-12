@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 19px;
+  line-height: 30px;
+  color: #777;
+  background: #dfdede;
+}
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+h1 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-left: 95px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.urlStyle {
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+
+.urlStyle button[type="submit"] {
+  cursor: pointer;
+  width: 50%;
+  border: none;
+  background: #f0715f;
+  color: #fff;
+  margin-left: 25%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 7px;
+}
+
+.urlStyle button[type="submit"]:hover {
+  background: #f07150;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#botao {
+  cursor: pointer;
+  width: 50%;
+  border: none;
+  background: #f0715f;
+  color: #fff;
+  margin-left: 25%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 7px;
+}
+
+#botao:hover {
+  background: #f07150;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+.urlEncurtada {
+  margin-top: 15px;
+}
+
+span {
+  font-size: 18px;
+  margin-left: 100px;
+}
